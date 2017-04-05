@@ -136,9 +136,7 @@
     "type": "git",
     "url": "git+https://github.com/death667b/mc-react-highlight.js.git"
   },
-  "scripts": {
-
-  },
+  "scripts": {},
   "standard": {
     "parser": "babel-eslint",
     "ignore": [
@@ -157,5 +155,5 @@
     ]
   },
   "user": "death667b",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
