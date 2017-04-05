@@ -2,37 +2,37 @@
   "_args": [
     [
       {
-        "raw": "react-highlight.js",
+        "raw": "mc-react-highlight.js",
         "scope": null,
-        "escapedName": "react-highlight.js",
-        "name": "react-highlight.js",
+        "escapedName": "mc-react-highlight.js",
+        "name": "mc-react-highlight.js",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/iandaniel/Code/MC-Electron-App"
+      "/Users/iandaniel/Code/mc-react-highlight.js"
     ]
   ],
-  "_from": "react-highlight.js@latest",
-  "_id": "react-highlight.js@1.0.5",
+  "_from": "mc-react-highlight.js@latest",
+  "_id": "mc-react-highlight.js@1.0.5",
   "_inCache": true,
-  "_location": "/react-highlight.js",
+  "_location": "/mc-react-highlight.js",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
     "tmp": "tmp/react-highlight.js-1.0.5.tgz_1471015869964_0.20629855850711465"
   },
   "_npmUser": {
-    "name": "brianvaughn",
-    "email": "briandavidvaughn@gmail.com"
+    "name": "death667b",
+    "email": "idaniel@spinnys.com"
   },
   "_npmVersion": "3.3.12",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-highlight.js",
+    "raw": "mc-react-highlight.js",
     "scope": null,
-    "escapedName": "react-highlight.js",
-    "name": "react-highlight.js",
+    "escapedName": "mc-react-highlight.js",
+    "name": "mc-react-highlight.js",
     "rawSpec": "",
     "spec": "latest",
     "type": "tag"
@@ -44,16 +44,22 @@
   "_resolved": "https://registry.npmjs.org/react-highlight.js/-/react-highlight.js-1.0.5.tgz",
   "_shasum": "c8b319dfeb6f67a83658596948eff7123aeeabdd",
   "_shrinkwrap": null,
-  "_spec": "react-highlight.js",
+  "_spec": "mc-react-highlight.js",
   "_where": "/Users/iandaniel/Code/MC-Electron-App",
   "author": {
     "name": "Brian Vaughn"
   },
+  "contributors": [
+    {
+      "name": "Ian Daniel",
+      "email": "idaniel@spinnys.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/bvaughn/react-highlight.js/issues"
   },
   "dependencies": {
-    "highlight.js": "^9.3.0"
+    "mc-highlight.js": "^9.3.0"
   },
   "description": "A lightweight React wrapper around the Highlight.js syntaxt highlighting library",
   "devDependencies": {
@@ -102,7 +108,7 @@
     "tarball": "https://registry.npmjs.org/react-highlight.js/-/react-highlight.js-1.0.5.tgz"
   },
   "gitHead": "bbeeb79f878c569a415cb6ee3cee01545e83e21d",
-  "homepage": "https://github.com/bvaughn/react-highlight.js/",
+  "homepage": "https://github.com/death667b/mc-react-highlight.js/",
   "keywords": [
     "react",
     "reactjs",
@@ -119,7 +125,7 @@
       "email": "briandavidvaughn@gmail.com"
     }
   ],
-  "name": "react-highlight.js",
+  "name": "mc-react-highlight.js",
   "optionalDependencies": {},
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0",
@@ -128,7 +134,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bvaughn/react-highlight.js.git"
+    "url": "git+https://github.com/death667b/mc-react-highlight.js.git"
   },
   "scripts": {
     "build": "npm run build:website && npm run build:dist",
@@ -163,6 +169,6 @@
       "jasmine"
     ]
   },
-  "user": "bvaughn",
+  "user": "death667b",
   "version": "1.0.5"
 }
