@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { findDOMNode } from 'react-dom'
-import highlight from 'highlight.js'
+import highlight from 'mc-highlight.js'
 
 export default class Highlight extends Component {
   static propTypes = {
