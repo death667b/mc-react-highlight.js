@@ -137,20 +137,7 @@
     "url": "git+https://github.com/death667b/mc-react-highlight.js.git"
   },
   "scripts": {
-    "build": "npm run build:website && npm run build:dist",
-    "build:dist": "npm run clean:dist && NODE_ENV=production webpack --config webpack.config.dist.js --bail",
-    "build:website": "npm run clean:website && NODE_ENV=production webpack --config webpack.config.website.js -p --bail",
-    "clean": "npm run clean:website && npm run clean:dist",
-    "clean:dist": "rimraf dist",
-    "clean:website": "rimraf build",
-    "deploy": "gh-pages -d build",
-    "lint": "standard",
-    "postpublish": "npm run deploy",
-    "prebuild": "npm run lint",
-    "prepublish": "npm run build",
-    "start": "webpack-dev-server --hot --inline --config webpack.config.dev.js",
-    "test": "NODE_ENV=test karma start",
-    "watch": "watch 'clear && npm run lint -s && npm run test -s' src"
+
   },
   "standard": {
     "parser": "babel-eslint",
